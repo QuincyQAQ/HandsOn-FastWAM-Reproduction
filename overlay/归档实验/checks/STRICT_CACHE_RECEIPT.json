@@ -1,0 +1,10 @@
+{
+  "scope": "FastWAM Core50 paper-trial0 exact prompts",
+  "prompts": 50,
+  "native_truncation_allowed": false,
+  "token_limit": 128,
+  "encoder_sha256": "7cace0da2b446bbbbc57d031ab6cf163a3d59b366da94e5afe36745b746fd81d",
+  "cache_sha256": "5dbb814f2ed8921c77193676c727d307f9f813793a0889d673d642eb5fe613ec",
+  "cache": "/data1/qli736/robot/weights/handson/fastwam/archive-core50-trial000-strict.safetensors",
+  "source_report": "/data1/qli736/robot/HandsOn-main/outputs/archive-text-check-trial0.json"
+}

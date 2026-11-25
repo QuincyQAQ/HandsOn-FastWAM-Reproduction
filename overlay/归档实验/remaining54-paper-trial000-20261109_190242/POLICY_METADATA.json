@@ -1,0 +1,35 @@
+{
+  "name": "FastWAM",
+  "step": 100000,
+  "model_horizon": 32,
+  "action_horizon": 16,
+  "history_frames": 1,
+  "history_stride": 0,
+  "denoising_steps": 10,
+  "render_stride": 16,
+  "state_dim": 52,
+  "action_dim": 52,
+  "control_hz": 30,
+  "coordinate_frame": "simulation_world",
+  "side_order": [
+    "right",
+    "left"
+  ],
+  "state_semantics": "current_measured",
+  "action_semantics": "absolute_controller_command",
+  "model": "fastwam",
+  "checkpoint": "/data1/qli736/robot/data/weights/handson/fastwam/step-100000/mp_rank_00_model_states.pt",
+  "checkpoint_sha256": "9d8532d0ad8b62596ba070f7f663c9e58d67a059523b7fe4c21ea7028bedf46f",
+  "adapter_source_manifest_sha256": "8b6aa32e76b7780a2c6e53132f5076394597d685f793eb3602c1dea4b3b17d65",
+  "packaged_assets_sha256": {
+    "fastwam/model.yaml": "4dc7c0106d4f82ba23a496e4575d6b2d0bd64b8b94ca9acef8b42c7e180ef145",
+    "fastwam/norm_stats.json": "a3cb165ac4301e3d1b8d12154152e3669f3ccfcc76495d2e43bf7cbfc45e0fe4"
+  },
+  "load_receipt": {
+    "device": "npu:11",
+    "loaded_keys": 5145,
+    "local_device_extension": true,
+    "npu_rope_precision": "float32"
+  },
+  "text_cache_sha256": "5dbb814f2ed8921c77193676c727d307f9f813793a0889d673d642eb5fe613ec"
+}

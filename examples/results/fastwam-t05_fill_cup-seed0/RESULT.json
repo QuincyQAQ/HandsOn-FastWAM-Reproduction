@@ -1,0 +1,715 @@
+{
+  "task": "t05_fill_cup",
+  "seed": 0,
+  "steps": 1590,
+  "actions": 1590,
+  "success": false,
+  "native_return": {
+    "reward": 0.0,
+    "terminated": false,
+    "truncated": true,
+    "info": {
+      "succeed": false,
+      "manual_reset": false,
+      "isaac_warnings": [],
+      "time_limit_reached": true,
+      "truncated_reason": "time_limit",
+      "task_id": "B320-KA021",
+      "task_name": "t05_fill_cup",
+      "b320_metrics": {
+        "cup_outlet_xy_error_m": 0.18981157585032776,
+        "cup_rim_position_w": [
+          -0.30359108853760314,
+          -0.18933437287851732,
+          0.9838699856948735
+        ],
+        "cup_tilt_deg": 2.8610972720879466e-05,
+        "cup_rim_z_m": 0.9838699856948735,
+        "outlet_rim_gap_m": 0.22484917039157148,
+        "faucet_open_fraction": 7.015759730370803e-14,
+        "faucet_joint_readable": true,
+        "faucet_joint_position_rad": -5.510164807071005e-14,
+        "faucet_joint_position_deg": -3.157091878666861e-12,
+        "water_emitting": false,
+        "water_hits_cup": false,
+        "ka021_fill_phase_valid": false,
+        "ka021_fill_phase_complete": false,
+        "ka021_fill_hold_frames": 0,
+        "ka021_water_filled": false,
+        "cup_park_xy_error_m": 0.26864873298550795,
+        "cup_park_z_error_m": 0.12131501430511471,
+        "cup_park_tilt_deg": 2.8610972720879466e-05,
+        "cup_parked": false,
+        "ka021_cup_park_condition": false,
+        "faucet_closed": true,
+        "ka021_faucet_close_condition": true,
+        "post_fill_complete": false,
+        "success_now": false
+      },
+      "b320_contact_available": {
+        "left": true,
+        "right": true
+      },
+      "b320_contact_readable": {
+        "left": true,
+        "right": true
+      },
+      "b320_contact_force_n": {
+        "left": 0.0,
+        "right": 0.0
+      },
+      "b320_contact_peak_n": {
+        "left": 437.39337008505674,
+        "right": 476.8791047863814
+      },
+      "b320_carton_contact_detail_available": {
+        "left": false,
+        "right": false
+      },
+      "b320_carton_zone_valid": {
+        "left": false,
+        "right": false
+      },
+      "b320_carton_zone_force_n": {
+        "left": 0.0,
+        "right": 0.0
+      },
+      "b320_carton_table_contact_available": false,
+      "b320_carton_table_contact_readable": false,
+      "b320_carton_table_contact_force_n": 0.0,
+      "b320_pen_table_contact_available": false,
+      "b320_pen_table_contact_readable": false,
+      "b320_pen_table_contact_force_n": 0.0,
+      "b320_carton_airborne_now": false,
+      "b320_carton_airborne_substeps": 0,
+      "b320_carton_airborne_substeps_required": 360,
+      "b320_carton_airborne_hold_seconds": 0.0,
+      "b320_carton_transport_started": false,
+      "b320_carton_transport_support_lost": false,
+      "b320_failure_reason": null,
+      "b320_success_counter": 0,
+      "b320_success_frames_required": 15,
+      "b320_handover_completed": false,
+      "b320_physical_replay_certified": false,
+      "ka021_faucet": {
+        "asset_bundle": "core_faucet_paper_mug",
+        "asset_manifest": "core_faucet_paper_mug/asset_manifest.json",
+        "faucet_asset_bundle": "blenderkit_kitchen_faucet",
+        "faucet_asset_manifest": "blenderkit_kitchen_faucet/asset_manifest.json",
+        "faucet_source_creator": "Cody Flynn",
+        "faucet_source_url": "https://www.blendkit.com/asset-gallery-detail/b372d45e-2fbe-41cf-bf10-d0fd70dd2574/",
+        "faucet_source_sha256": "17faafad74eb833f5cecee9c84b13964bff92492fb1fbe3d795cea6e189183bf",
+        "source_licenses": [
+          "CC BY 4.0",
+          "BlenderKit Royalty Free"
+        ],
+        "shared_scene": "B320-HS005",
+        "reuses_hs005_realistic_kitchen": true,
+        "source_open_sink_collision_enabled": false,
+        "safe_open_basin_floor_collision": "/World/Task/B320Benchmark/faucet_fixture/safe_open_basin_floor_collision",
+        "safe_open_basin_floor_size_m": [
+          0.44,
+          0.62,
+          0.02
+        ],
+        "safe_open_basin_floor_center_w": [
+          -0.15,
+          -0.14,
+          0.88
+        ],
+        "counter_surface_collision_root": "/World/Task/B320Benchmark/faucet_fixture/hs005_counter_surface_collision",
+        "counter_surface_collision_specs": [
+          {
+            "name": "left",
+            "size_m": [
+              0.1,
+              0.8,
+              0.02
+            ],
+            "center_w": [
+              -0.445,
+              -0.44,
+              1.001315
+            ],
+            "top_z_m": 1.011315
+          },
+          {
+            "name": "right",
+            "size_m": [
+              0.14,
+              0.91,
+              0.02
+            ],
+            "center_w": [
+              0.152,
+              -0.208,
+              1.001315
+            ],
+            "top_z_m": 1.011315
+          },
+          {
+            "name": "rear",
+            "size_m": [
+              0.4,
+              0.5,
+              0.02
+            ],
+            "center_w": [
+              -0.107,
+              0.575,
+              1.001315
+            ],
+            "top_z_m": 1.011315
+          },
+          {
+            "name": "front_left",
+            "size_m": [
+              0.1,
+              0.06,
+              0.02
+            ],
+            "center_w": [
+              -0.47,
+              -0.713,
+              1.001315
+            ],
+            "top_z_m": 1.011315
+          },
+          {
+            "name": "front_right",
+            "size_m": [
+              0.1,
+              0.06,
+              0.02
+            ],
+            "center_w": [
+              0.152,
+              -0.713,
+              1.001315
+            ],
+            "top_z_m": 1.011315
+          }
+        ],
+        "cup_park_support_collision": "/World/Task/B320Benchmark/faucet_fixture/cup_park_support_collision",
+        "cup_park_support_size_m": [
+          0.1,
+          0.12,
+          0.02
+        ],
+        "cup_park_support_center_w": [
+          -0.44828605430524987,
+          -0.41568695355833607,
+          1.001315
+        ],
+        "cup_park_marker": "/World/Task/B320Benchmark/cup_park_marker",
+        "cup_park_region": "outside_sink_left_counter",
+        "cup_park_surface_z_m": 1.011315,
+        "cup_park_position_w": [
+          -0.44828605430524987,
+          -0.41568695355833607,
+          1.011315
+        ],
+        "cup_park_tolerance_m": 0.06,
+        "cup_park_z_tolerance_m": 0.014,
+        "mug_open_cavity_collision": true,
+        "mug_open_cavity_collision_model": "four_wall_segments_plus_handle_capsules_and_foot",
+        "mug_handle_collision_radius_m": 0.0045,
+        "mug_handle_collision_centerline_source_m": [
+          [
+            [
+              -7.0,
+              0.0,
+              3.2
+            ],
+            [
+              -10.5,
+              0.0,
+              3.2
+            ]
+          ],
+          [
+            [
+              -10.5,
+              0.0,
+              3.2
+            ],
+            [
+              -10.5,
+              0.0,
+              12.8
+            ]
+          ],
+          [
+            [
+              -10.5,
+              0.0,
+              12.8
+            ],
+            [
+              -7.0,
+              0.0,
+              12.8
+            ]
+          ]
+        ],
+        "source_faucet_articulated": false,
+        "runtime_lever_authored": true,
+        "runtime_handle_visual_uses_source_geometry": true,
+        "water_proxy_path": "/World/Task/B320Benchmark/faucet_water_flow_proxy",
+        "water_visual_model": "render_only_cylinder",
+        "particle_model": false,
+        "outlet_position_w": [
+          -0.11790956632145333,
+          -0.14995409057533682,
+          1.208719156086445
+        ],
+        "cup_opening_radius_m": 0.03,
+        "cup_rim_height_m": 0.09387,
+        "cup_up_axis_local": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "cup_home_orientation_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cup_asset_root_up_axis": "Z",
+        "cup_asset_root_orientation_wxyz": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "cup_upright_tolerance_deg": 15.0,
+        "cup_upright_boundary_inclusive": true,
+        "outlet_rim_gap_range_m": [
+          0.04,
+          0.19
+        ],
+        "flow_visible_fraction": 0.35,
+        "success_open_fraction": 0.7,
+        "runtime_lever_open_axis": "Y",
+        "runtime_joint_frame": "yawed_source_y_axis_with_sign_flip",
+        "runtime_joint_frame_orientation_wxyz": [
+          -0.9373072655054007,
+          0.0,
+          0.0,
+          0.3485040746258046
+        ],
+        "runtime_joint_axis_world_w": [
+          0.653310802410006,
+          0.7570898199384232,
+          0.0
+        ],
+        "runtime_initial_open_direction_world_w": [
+          -0.7570898199384233,
+          0.6533108024100059,
+          0.0
+        ],
+        "runtime_lever_limits_deg": [
+          -45.0,
+          0.0
+        ],
+        "runtime_lever_reset_position_rad": 0.0,
+        "runtime_lever_open_travel_rad": 0.7853981633974483,
+        "runtime_lever_open_travel_deg": 45.0,
+        "runtime_lever_outward_direction_w": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "runtime_lever_fraction_formula": "clip(-q_rad / radians(45), 0, 1)",
+        "runtime_handle_pivot_w": [
+          -0.026061674265363783,
+          -0.3364905696752647,
+          1.0580870155692101
+        ],
+        "runtime_base_position_w": [
+          0.027,
+          -0.275,
+          1.002
+        ],
+        "runtime_split_method": "authored_object_boundary",
+        "runtime_handle_grip_collider_size_m": [
+          0.024,
+          0.024,
+          0.085
+        ],
+        "lateral_left_right_motion_role": "temperature_only_not_scored",
+        "success_hold_seconds": 0.5,
+        "fill_phase_hold_seconds": 0.5,
+        "fill_requires_faucet_open": true,
+        "fill_hold_frames": 15,
+        "success_condition_count": 8,
+        "post_fill_requires_cup_park": true,
+        "post_fill_requires_faucet_closed": true,
+        "randomized_reset_enabled": true,
+        "reset_sample_attempts": 1,
+        "cup_reset_pose_wxyz": [
+          -0.1506669634344155,
+          0.0016099794807415968,
+          0.89,
+          0.9912903045688318,
+          0.0,
+          0.0,
+          0.13169484449982344
+        ],
+        "cup_reset_xy_bounds_m": [
+          [
+            -0.25,
+            -0.13
+          ],
+          [
+            -0.04,
+            0.06
+          ]
+        ],
+        "cup_reset_complete_visual_footprint_radius_m": 0.074,
+        "cup_reset_basin_edge_clearance_m": 0.02,
+        "cup_reset_basin_floor_top_z_m": 0.89,
+        "cup_reset_requires_complete_mug_inside_basin": true,
+        "cup_reset_visible_basin_opening_bounds_xy_m": [
+          [
+            -0.358,
+            -0.228
+          ],
+          [
+            0.066,
+            0.238
+          ]
+        ],
+        "cup_reset_excludes_drainboard": true,
+        "cup_park_xy_bounds_m": [
+          [
+            -0.45,
+            -0.48
+          ],
+          [
+            -0.44,
+            -0.2
+          ]
+        ],
+        "cup_reset_xy_jitter_m": 0.018390020519258404,
+        "cup_reset_yaw_degrees": 25.0
+      },
+      "control_timing": {
+        "target_hz": 30,
+        "actual_hz": 12.574354357903783,
+        "work_ms": 79.45629599998938,
+        "render_ms": 1.5643429996998748,
+        "sleep_ms": 0.07064999954309314,
+        "sim_realtime_factor": 0.4191451452634594,
+        "phase_ms": {
+          "trace_begin": 0.017238999134860933,
+          "trace_finish": 0.0,
+          "prepare": 0.030047998734517023,
+          "physics": 48.94801000227744,
+          "capture": 19.422743998802616,
+          "post_substep": 0.021087002096464857,
+          "refresh": 1.6014670000004116,
+          "task": 1.3706459994864417,
+          "observation": 0.7557869994343491,
+          "attach": 0.8072029995673802
+        }
+      }
+    },
+    "nonfinite_fields": [],
+    "observation_type": "dict",
+    "source": "values returned by native env.step; no checker called by observer"
+  },
+  "stop_reason": "native_truncated",
+  "complete_native_episode": true,
+  "complete_evaluation_episode": true,
+  "complete_original_native_episode": false,
+  "timing_seconds": {
+    "policy_start": 0.0618705510005384,
+    "inference": 121.19604900699596,
+    "physics": 150.31615711697305,
+    "render": 1991.11401405401,
+    "video": 0.7400762550005311,
+    "audit": 1.5084731799997826
+  },
+  "wall_seconds": 2268.8470213150013,
+  "physics_steps": 6360,
+  "physical_seconds": 53.0,
+  "frame_steps": [
+    0,
+    16,
+    32,
+    48,
+    64,
+    80,
+    96,
+    112,
+    128,
+    144,
+    160,
+    176,
+    192,
+    208,
+    224,
+    240,
+    256,
+    272,
+    288,
+    304,
+    320,
+    336,
+    352,
+    368,
+    384,
+    400,
+    416,
+    432,
+    448,
+    464,
+    480,
+    496,
+    512,
+    528,
+    544,
+    560,
+    576,
+    592,
+    608,
+    624,
+    640,
+    656,
+    672,
+    688,
+    704,
+    720,
+    736,
+    752,
+    768,
+    784,
+    800,
+    816,
+    832,
+    848,
+    864,
+    880,
+    896,
+    912,
+    928,
+    944,
+    960,
+    976,
+    992,
+    1008,
+    1024,
+    1040,
+    1056,
+    1072,
+    1088,
+    1104,
+    1120,
+    1136,
+    1152,
+    1168,
+    1184,
+    1200,
+    1216,
+    1232,
+    1248,
+    1264,
+    1280,
+    1296,
+    1312,
+    1328,
+    1344,
+    1360,
+    1376,
+    1392,
+    1408,
+    1424,
+    1440,
+    1456,
+    1472,
+    1488,
+    1504,
+    1520,
+    1536,
+    1552,
+    1568,
+    1584,
+    1590
+  ],
+  "videos": {
+    "main": {
+      "exit_code": 0,
+      "frames": 101,
+      "shape": [
+        480,
+        854,
+        3
+      ],
+      "raw_rgb_sequence_sha256": "e80471245e1304e43379a563b00757cdc9344ad82719cd147c5faac1137a386d",
+      "argv": [
+        "/usr/bin/ffmpeg",
+        "-nostdin",
+        "-n",
+        "-loglevel",
+        "warning",
+        "-f",
+        "rawvideo",
+        "-pixel_format",
+        "rgb24",
+        "-video_size",
+        "854x480",
+        "-framerate",
+        "1.875",
+        "-i",
+        "pipe:0",
+        "-an",
+        "-c:v",
+        "libx264",
+        "-preset",
+        "fast",
+        "-crf",
+        "18",
+        "-threads",
+        "1",
+        "-pix_fmt",
+        "yuv420p",
+        "-movflags",
+        "+faststart",
+        "/home/quincylee/code/Robotics/HandsOn-main/outputs/care-batch-20261106_152040_147176/fastwam-t05_fill_cup-seed0/policy_000/main.mp4"
+      ]
+    },
+    "wrist_left": {
+      "exit_code": 0,
+      "frames": 101,
+      "shape": [
+        480,
+        848,
+        3
+      ],
+      "raw_rgb_sequence_sha256": "a40f8446e22f3e43ee75c09ea74cbdb688de3f12ae7582fd52cc8976966bc714",
+      "argv": [
+        "/usr/bin/ffmpeg",
+        "-nostdin",
+        "-n",
+        "-loglevel",
+        "warning",
+        "-f",
+        "rawvideo",
+        "-pixel_format",
+        "rgb24",
+        "-video_size",
+        "848x480",
+        "-framerate",
+        "1.875",
+        "-i",
+        "pipe:0",
+        "-an",
+        "-c:v",
+        "libx264",
+        "-preset",
+        "fast",
+        "-crf",
+        "18",
+        "-threads",
+        "1",
+        "-pix_fmt",
+        "yuv420p",
+        "-movflags",
+        "+faststart",
+        "/home/quincylee/code/Robotics/HandsOn-main/outputs/care-batch-20261106_152040_147176/fastwam-t05_fill_cup-seed0/policy_000/wrist_left.mp4"
+      ]
+    },
+    "wrist_right": {
+      "exit_code": 0,
+      "frames": 101,
+      "shape": [
+        480,
+        848,
+        3
+      ],
+      "raw_rgb_sequence_sha256": "ab393660a50a6ad9c6ee042042fe7e0ee441dd10adbda65640673ab122fd8808",
+      "argv": [
+        "/usr/bin/ffmpeg",
+        "-nostdin",
+        "-n",
+        "-loglevel",
+        "warning",
+        "-f",
+        "rawvideo",
+        "-pixel_format",
+        "rgb24",
+        "-video_size",
+        "848x480",
+        "-framerate",
+        "1.875",
+        "-i",
+        "pipe:0",
+        "-an",
+        "-c:v",
+        "libx264",
+        "-preset",
+        "fast",
+        "-crf",
+        "18",
+        "-threads",
+        "1",
+        "-pix_fmt",
+        "yuv420p",
+        "-movflags",
+        "+faststart",
+        "/home/quincylee/code/Robotics/HandsOn-main/outputs/care-batch-20261106_152040_147176/fastwam-t05_fill_cup-seed0/policy_000/wrist_right.mp4"
+      ]
+    }
+  },
+  "policy_metadata": {
+    "name": "FastWAM",
+    "step": 100000,
+    "model_horizon": 32,
+    "action_horizon": 16,
+    "history_frames": 1,
+    "history_stride": 0,
+    "denoising_steps": 10,
+    "render_stride": 16,
+    "state_dim": 52,
+    "action_dim": 52,
+    "control_hz": 30,
+    "coordinate_frame": "simulation_world",
+    "side_order": [
+      "right",
+      "left"
+    ],
+    "state_semantics": "current_measured",
+    "action_semantics": "absolute_controller_command",
+    "model": "fastwam",
+    "checkpoint": "/data1/qli736/robot/data/weights/handson/fastwam/step-100000/mp_rank_00_model_states.pt",
+    "checkpoint_sha256": "9d8532d0ad8b62596ba070f7f663c9e58d67a059523b7fe4c21ea7028bedf46f",
+    "adapter_source_manifest_sha256": "8b6aa32e76b7780a2c6e53132f5076394597d685f793eb3602c1dea4b3b17d65",
+    "packaged_assets_sha256": {
+      "fastwam/model.yaml": "4dc7c0106d4f82ba23a496e4575d6b2d0bd64b8b94ca9acef8b42c7e180ef145",
+      "fastwam/norm_stats.json": "a3cb165ac4301e3d1b8d12154152e3669f3ccfcc76495d2e43bf7cbfc45e0fe4"
+    },
+    "load_receipt": {
+      "device": "npu:9",
+      "loaded_keys": 5145,
+      "local_device_extension": true,
+      "npu_rope_precision": "float32"
+    },
+    "text_cache_sha256": "ba727f1a75a7457dffc12ee57a663e12f405d0823a86aef93d3cce22f4b4d352"
+  },
+  "source_commit": "packaged",
+  "counts_as_formal_trial": true,
+  "physics_backend": "physx",
+  "paper_physics_protocol": true,
+  "protocol": "handson_native_eef52",
+  "full_alignment_accepted": false,
+  "paper_variant": null,
+  "diagnostic_only": false,
+  "evaluation_budget": {
+    "steps": 1590,
+    "seconds": 53.0,
+    "mode": "demo_3xp75",
+    "p75_frames": 530
+  }
+}

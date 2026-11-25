@@ -1,0 +1,6 @@
+{
+  "error": "ValueError('Native high-level command readback changed')",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/quincylee/code/Robotics/HandsOn-main/handson/handson/evaluation/native.py\", line 230, in run_episode\n    result = adapter.run(run, env, job, output, 0, seed, capture)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/quincylee/code/Robotics/HandsOn-main/handson/handson/evaluation/task_adapters.py\", line 33, in run\n    return run_with_force(run, env, job, output, number, seed, capture)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/quincylee/code/Robotics/HandsOn-main/handson/handson/evaluation/carton.py\", line 88, in run_with_force\n    result = original_run(env, job, output, number, seed, capture)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/quincylee/code/Robotics/HandsOn-main/handson/handson/evaluation/rollout.py\", line 123, in run\n    require(all(v['position_max_abs']<1e-10 and v['hand_max_abs']<1e-10\n  File \"/home/quincylee/code/Robotics/HandsOn-main/handson/handson/evaluation/contracts.py\", line 24, in require\n    raise ValueError(message)\nValueError: Native high-level command readback changed\n",
+  "counts_as_model_failure": false,
+  "diagnostics": {}
+}

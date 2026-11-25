@@ -1,0 +1,36 @@
+[package]
+title = "HandsOn FastWAM Live"
+description = "Existing paper camera renderer with a local desktop viewport"
+version = "1.0.0"
+
+[dependencies]
+"isaaclab.python.headless.rendering" = {}
+"omni.kit.mainwindow" = {}
+"omni.kit.viewport.window" = {}
+"omni.kit.window.toolbar" = {}
+"omni.kit.manipulator.camera" = {}
+
+[settings.app.window]
+title = "HandsOn - FastWAM Live Inference"
+width = 1280
+height = 720
+
+[settings.app.renderer]
+resolution.width = 1280
+resolution.height = 720
+
+[settings.app.exts]
+folders = [
+    "${exe-path}/exts",
+    "${exe-path}/extscore",
+    "${exe-path}/../exts",
+    "${exe-path}/../extsDeprecated",
+    "${exe-path}/../extscache",
+    "${exe-path}/../extsPhysics",
+    "${exe-path}/../isaacsim/exts",
+    "${exe-path}/../isaacsim/extsDeprecated",
+    "${exe-path}/../isaacsim/extscache",
+    "${exe-path}/../isaacsim/extsPhysics",
+    "${app}",
+    "${app}/../source",
+]

@@ -1,0 +1,1028 @@
+[
+  {
+    "task": "t01_align_blocks_in_midair",
+    "paper_trial": 0,
+    "exit_code": 0,
+    "success": false,
+    "steps": 1197,
+    "error": null,
+    "complete_video_episode": true,
+    "videos": {
+      "main": {
+        "parse_ok": true,
+        "frames": 76,
+        "matches_expected": true
+      },
+      "wrist_left": {
+        "parse_ok": true,
+        "frames": 76,
+        "matches_expected": true
+      },
+      "wrist_right": {
+        "parse_ok": true,
+        "frames": 76,
+        "matches_expected": true
+      }
+    },
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/\u5f52\u6863\u5b9e\u9a8c/remaining54-paper-trial000-20261109_190242/fastwam-t01_align_blocks_in_midair-trial000"
+  },
+  {
+    "task": "t02_connect_charger_and_cable",
+    "paper_trial": 0,
+    "exit_code": 0,
+    "success": false,
+    "steps": 2526,
+    "error": null,
+    "complete_video_episode": true,
+    "videos": {
+      "main": {
+        "parse_ok": true,
+        "frames": 159,
+        "matches_expected": true
+      },
+      "wrist_left": {
+        "parse_ok": true,
+        "frames": 159,
+        "matches_expected": true
+      },
+      "wrist_right": {
+        "parse_ok": true,
+        "frames": 159,
+        "matches_expected": true
+      }
+    },
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/\u5f52\u6863\u5b9e\u9a8c/remaining54-paper-trial000-20261109_190242/fastwam-t02_connect_charger_and_cable-trial000"
+  },
+  {
+    "task": "t04_cover_pitcher",
+    "paper_trial": 0,
+    "exit_code": 0,
+    "success": false,
+    "steps": 1146,
+    "error": null,
+    "complete_video_episode": true,
+    "videos": {
+      "main": {
+        "parse_ok": true,
+        "frames": 73,
+        "matches_expected": true
+      },
+      "wrist_left": {
+        "parse_ok": true,
+        "frames": 73,
+        "matches_expected": true
+      },
+      "wrist_right": {
+        "parse_ok": true,
+        "frames": 73,
+        "matches_expected": true
+      }
+    },
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/\u5f52\u6863\u5b9e\u9a8c/remaining54-paper-trial000-20261109_190242/fastwam-t04_cover_pitcher-trial000"
+  },
+  {
+    "task": "t06_fit_device_cover",
+    "paper_trial": 0,
+    "exit_code": 0,
+    "success": false,
+    "steps": 2196,
+    "error": null,
+    "complete_video_episode": true,
+    "videos": {
+      "main": {
+        "parse_ok": true,
+        "frames": 139,
+        "matches_expected": true
+      },
+      "wrist_left": {
+        "parse_ok": true,
+        "frames": 139,
+        "matches_expected": true
+      },
+      "wrist_right": {
+        "parse_ok": true,
+        "frames": 139,
+        "matches_expected": true
+      }
+    },
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/\u5f52\u6863\u5b9e\u9a8c/remaining54-paper-trial000-20261109_190242/fastwam-t06_fit_device_cover-trial000"
+  },
+  {
+    "task": "t07_flip_sponge",
+    "paper_trial": 0,
+    "exit_code": 0,
+    "success": false,
+    "steps": 4428,
+    "error": null,
+    "complete_video_episode": true,
+    "videos": {
+      "main": {
+        "parse_ok": true,
+        "frames": 278,
+        "matches_expected": true
+      },
+      "wrist_left": {
+        "parse_ok": true,
+        "frames": 278,
+        "matches_expected": true
+      },
+      "wrist_right": {
+        "parse_ok": true,
+        "frames": 278,
+        "matches_expected": true
+      }
+    },
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/\u5f52\u6863\u5b9e\u9a8c/remaining54-paper-trial000-20261109_190242/fastwam-t07_flip_sponge-trial000"
+  },
+  {
+    "task": "t08_hammer_nail",
+    "paper_trial": 0,
+    "exit_code": 0,
+    "success": false,
+    "steps": 1578,
+    "error": null,
+    "complete_video_episode": true,
+    "videos": {
+      "main": {
+        "parse_ok": true,
+        "frames": 100,
+        "matches_expected": true
+      },
+      "wrist_left": {
+        "parse_ok": true,
+        "frames": 100,
+        "matches_expected": true
+      },
+      "wrist_right": {
+        "parse_ok": true,
+        "frames": 100,
+        "matches_expected": true
+      }
+    },
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/\u5f52\u6863\u5b9e\u9a8c/remaining54-paper-trial000-20261109_190242/fastwam-t08_hammer_nail-trial000"
+  },
+  {
+    "task": "t09_insert_peg",
+    "paper_trial": 0,
+    "exit_code": 0,
+    "success": false,
+    "steps": 1455,
+    "error": null,
+    "complete_video_episode": true,
+    "videos": {
+      "main": {
+        "parse_ok": true,
+        "frames": 92,
+        "matches_expected": true
+      },
+      "wrist_left": {
+        "parse_ok": true,
+        "frames": 92,
+        "matches_expected": true
+      },
+      "wrist_right": {
+        "parse_ok": true,
+        "frames": 92,
+        "matches_expected": true
+      }
+    },
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/\u5f52\u6863\u5b9e\u9a8c/remaining54-paper-trial000-20261109_190242/fastwam-t09_insert_peg-trial000"
+  },
+  {
+    "task": "t11_line_up_blocks",
+    "paper_trial": 0,
+    "exit_code": 0,
+    "success": false,
+    "steps": 594,
+    "error": null,
+    "complete_video_episode": true,
+    "videos": {
+      "main": {
+        "parse_ok": true,
+        "frames": 39,
+        "matches_expected": true
+      },
+      "wrist_left": {
+        "parse_ok": true,
+        "frames": 39,
+        "matches_expected": true
+      },
+      "wrist_right": {
+        "parse_ok": true,
+        "frames": 39,
+        "matches_expected": true
+      }
+    },
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/\u5f52\u6863\u5b9e\u9a8c/remaining54-paper-trial000-20261109_190242/fastwam-t11_line_up_blocks-trial000"
+  },
+  {
+    "task": "t12_load_and_start_microwave",
+    "paper_trial": 0,
+    "exit_code": 0,
+    "success": false,
+    "steps": 1989,
+    "error": null,
+    "complete_video_episode": true,
+    "videos": {
+      "main": {
+        "parse_ok": true,
+        "frames": 126,
+        "matches_expected": true
+      },
+      "wrist_left": {
+        "parse_ok": true,
+        "frames": 126,
+        "matches_expected": true
+      },
+      "wrist_right": {
+        "parse_ok": true,
+        "frames": 126,
+        "matches_expected": true
+      }
+    },
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/\u5f52\u6863\u5b9e\u9a8c/remaining54-paper-trial000-20261109_190242/fastwam-t12_load_and_start_microwave-trial000"
+  },
+  {
+    "task": "t13_load_cans",
+    "paper_trial": 0,
+    "exit_code": 0,
+    "success": false,
+    "steps": 1134,
+    "error": null,
+    "complete_video_episode": true,
+    "videos": {
+      "main": {
+        "parse_ok": true,
+        "frames": 72,
+        "matches_expected": true
+      },
+      "wrist_left": {
+        "parse_ok": true,
+        "frames": 72,
+        "matches_expected": true
+      },
+      "wrist_right": {
+        "parse_ok": true,
+        "frames": 72,
+        "matches_expected": true
+      }
+    },
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/\u5f52\u6863\u5b9e\u9a8c/remaining54-paper-trial000-20261109_190242/fastwam-t13_load_cans-trial000"
+  },
+  {
+    "task": "t14_move_and_click_mouse",
+    "paper_trial": 0,
+    "exit_code": 0,
+    "success": false,
+    "steps": 375,
+    "error": null,
+    "complete_video_episode": true,
+    "videos": {
+      "main": {
+        "parse_ok": true,
+        "frames": 25,
+        "matches_expected": true
+      },
+      "wrist_left": {
+        "parse_ok": true,
+        "frames": 25,
+        "matches_expected": true
+      },
+      "wrist_right": {
+        "parse_ok": true,
+        "frames": 25,
+        "matches_expected": true
+      }
+    },
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/\u5f52\u6863\u5b9e\u9a8c/remaining54-paper-trial000-20261109_190242/fastwam-t14_move_and_click_mouse-trial000"
+  },
+  {
+    "task": "t16_open_laptop",
+    "paper_trial": 0,
+    "exit_code": 0,
+    "success": true,
+    "steps": 226,
+    "error": null,
+    "complete_video_episode": true,
+    "videos": {
+      "main": {
+        "parse_ok": true,
+        "frames": 16,
+        "matches_expected": true
+      },
+      "wrist_left": {
+        "parse_ok": true,
+        "frames": 16,
+        "matches_expected": true
+      },
+      "wrist_right": {
+        "parse_ok": true,
+        "frames": 16,
+        "matches_expected": true
+      }
+    },
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/\u5f52\u6863\u5b9e\u9a8c/remaining54-paper-trial000-20261109_190242/fastwam-t16_open_laptop-trial000"
+  },
+  {
+    "task": "t18_open_micropipette_box",
+    "paper_trial": 0,
+    "exit_code": 0,
+    "success": false,
+    "steps": 375,
+    "error": null,
+    "complete_video_episode": true,
+    "videos": {
+      "main": {
+        "parse_ok": true,
+        "frames": 25,
+        "matches_expected": true
+      },
+      "wrist_left": {
+        "parse_ok": true,
+        "frames": 25,
+        "matches_expected": true
+      },
+      "wrist_right": {
+        "parse_ok": true,
+        "frames": 25,
+        "matches_expected": true
+      }
+    },
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/\u5f52\u6863\u5b9e\u9a8c/remaining54-paper-trial000-20261109_190242/fastwam-t18_open_micropipette_box-trial000"
+  },
+  {
+    "task": "t20_pass_and_orient_pen",
+    "paper_trial": 0,
+    "exit_code": 0,
+    "success": false,
+    "steps": 1272,
+    "error": null,
+    "complete_video_episode": true,
+    "videos": {
+      "main": {
+        "parse_ok": true,
+        "frames": 81,
+        "matches_expected": true
+      },
+      "wrist_left": {
+        "parse_ok": true,
+        "frames": 81,
+        "matches_expected": true
+      },
+      "wrist_right": {
+        "parse_ok": true,
+        "frames": 81,
+        "matches_expected": true
+      }
+    },
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/\u5f52\u6863\u5b9e\u9a8c/remaining54-paper-trial000-20261109_190242/fastwam-t20_pass_and_orient_pen-trial000"
+  },
+  {
+    "task": "t22_pass_screwdriver",
+    "paper_trial": 0,
+    "exit_code": 0,
+    "success": true,
+    "steps": 237,
+    "error": null,
+    "complete_video_episode": true,
+    "videos": {
+      "main": {
+        "parse_ok": true,
+        "frames": 16,
+        "matches_expected": true
+      },
+      "wrist_left": {
+        "parse_ok": true,
+        "frames": 16,
+        "matches_expected": true
+      },
+      "wrist_right": {
+        "parse_ok": true,
+        "frames": 16,
+        "matches_expected": true
+      }
+    },
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/\u5f52\u6863\u5b9e\u9a8c/remaining54-paper-trial000-20261109_190242/fastwam-t22_pass_screwdriver-trial000"
+  },
+  {
+    "task": "t23_photograph_logo",
+    "paper_trial": 0,
+    "exit_code": 0,
+    "success": false,
+    "steps": 474,
+    "error": null,
+    "complete_video_episode": true,
+    "videos": {
+      "main": {
+        "parse_ok": true,
+        "frames": 31,
+        "matches_expected": true
+      },
+      "wrist_left": {
+        "parse_ok": true,
+        "frames": 31,
+        "matches_expected": true
+      },
+      "wrist_right": {
+        "parse_ok": true,
+        "frames": 31,
+        "matches_expected": true
+      }
+    },
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/\u5f52\u6863\u5b9e\u9a8c/remaining54-paper-trial000-20261109_190242/fastwam-t23_photograph_logo-trial000"
+  },
+  {
+    "task": "t24_place_ball_in_bowl",
+    "paper_trial": 0,
+    "exit_code": 0,
+    "success": false,
+    "steps": 321,
+    "error": null,
+    "complete_video_episode": true,
+    "videos": {
+      "main": {
+        "parse_ok": true,
+        "frames": 22,
+        "matches_expected": true
+      },
+      "wrist_left": {
+        "parse_ok": true,
+        "frames": 22,
+        "matches_expected": true
+      },
+      "wrist_right": {
+        "parse_ok": true,
+        "frames": 22,
+        "matches_expected": true
+      }
+    },
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/\u5f52\u6863\u5b9e\u9a8c/remaining54-paper-trial000-20261109_190242/fastwam-t24_place_ball_in_bowl-trial000"
+  },
+  {
+    "task": "t27_place_largest_fitting_ball",
+    "paper_trial": 0,
+    "exit_code": 0,
+    "success": false,
+    "steps": 1239,
+    "error": null,
+    "complete_video_episode": true,
+    "videos": {
+      "main": {
+        "parse_ok": true,
+        "frames": 79,
+        "matches_expected": true
+      },
+      "wrist_left": {
+        "parse_ok": true,
+        "frames": 79,
+        "matches_expected": true
+      },
+      "wrist_right": {
+        "parse_ok": true,
+        "frames": 79,
+        "matches_expected": true
+      }
+    },
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/\u5f52\u6863\u5b9e\u9a8c/remaining54-paper-trial000-20261109_190242/fastwam-t27_place_largest_fitting_ball-trial000"
+  },
+  {
+    "task": "t29_place_wine_glass",
+    "paper_trial": 0,
+    "exit_code": 0,
+    "success": false,
+    "steps": 741,
+    "error": null,
+    "complete_video_episode": true,
+    "videos": {
+      "main": {
+        "parse_ok": true,
+        "frames": 48,
+        "matches_expected": true
+      },
+      "wrist_left": {
+        "parse_ok": true,
+        "frames": 48,
+        "matches_expected": true
+      },
+      "wrist_right": {
+        "parse_ok": true,
+        "frames": 48,
+        "matches_expected": true
+      }
+    },
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/\u5f52\u6863\u5b9e\u9a8c/remaining54-paper-trial000-20261109_190242/fastwam-t29_place_wine_glass-trial000"
+  },
+  {
+    "task": "t30_pour_seasonings",
+    "paper_trial": 0,
+    "exit_code": 0,
+    "success": false,
+    "steps": 249,
+    "error": null,
+    "complete_video_episode": true,
+    "videos": {
+      "main": {
+        "parse_ok": true,
+        "frames": 17,
+        "matches_expected": true
+      },
+      "wrist_left": {
+        "parse_ok": true,
+        "frames": 17,
+        "matches_expected": true
+      },
+      "wrist_right": {
+        "parse_ok": true,
+        "frames": 17,
+        "matches_expected": true
+      }
+    },
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/\u5f52\u6863\u5b9e\u9a8c/remaining54-paper-trial000-20261109_190242/fastwam-t30_pour_seasonings-trial000"
+  },
+  {
+    "task": "t31_prepare_coffee",
+    "paper_trial": 0,
+    "exit_code": 0,
+    "success": false,
+    "steps": 3150,
+    "error": null,
+    "complete_video_episode": true,
+    "videos": {
+      "main": {
+        "parse_ok": true,
+        "frames": 198,
+        "matches_expected": true
+      },
+      "wrist_left": {
+        "parse_ok": true,
+        "frames": 198,
+        "matches_expected": true
+      },
+      "wrist_right": {
+        "parse_ok": true,
+        "frames": 198,
+        "matches_expected": true
+      }
+    },
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/\u5f52\u6863\u5b9e\u9a8c/remaining54-paper-trial000-20261109_190242/fastwam-t31_prepare_coffee-trial000"
+  },
+  {
+    "task": "t32_press_soap_pump",
+    "paper_trial": 0,
+    "exit_code": 0,
+    "success": true,
+    "steps": 351,
+    "error": null,
+    "complete_video_episode": true,
+    "videos": {
+      "main": {
+        "parse_ok": true,
+        "frames": 23,
+        "matches_expected": true
+      },
+      "wrist_left": {
+        "parse_ok": true,
+        "frames": 23,
+        "matches_expected": true
+      },
+      "wrist_right": {
+        "parse_ok": true,
+        "frames": 23,
+        "matches_expected": true
+      }
+    },
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/\u5f52\u6863\u5b9e\u9a8c/remaining54-paper-trial000-20261109_190242/fastwam-t32_press_soap_pump-trial000"
+  },
+  {
+    "task": "t33_reposition_marker_grasp",
+    "paper_trial": 0,
+    "exit_code": 0,
+    "success": true,
+    "steps": 428,
+    "error": null,
+    "complete_video_episode": true,
+    "videos": {
+      "main": {
+        "parse_ok": true,
+        "frames": 28,
+        "matches_expected": true
+      },
+      "wrist_left": {
+        "parse_ok": true,
+        "frames": 28,
+        "matches_expected": true
+      },
+      "wrist_right": {
+        "parse_ok": true,
+        "frames": 28,
+        "matches_expected": true
+      }
+    },
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/\u5f52\u6863\u5b9e\u9a8c/remaining54-paper-trial000-20261109_190242/fastwam-t33_reposition_marker_grasp-trial000"
+  },
+  {
+    "task": "t34_roll_ball_through_gate",
+    "paper_trial": 0,
+    "exit_code": 0,
+    "success": false,
+    "steps": 653,
+    "error": null,
+    "complete_video_episode": true,
+    "videos": {
+      "main": {
+        "parse_ok": true,
+        "frames": 42,
+        "matches_expected": true
+      },
+      "wrist_left": {
+        "parse_ok": true,
+        "frames": 42,
+        "matches_expected": true
+      },
+      "wrist_right": {
+        "parse_ok": true,
+        "frames": 42,
+        "matches_expected": true
+      }
+    },
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/\u5f52\u6863\u5b9e\u9a8c/remaining54-paper-trial000-20261109_190242/fastwam-t34_roll_ball_through_gate-trial000"
+  },
+  {
+    "task": "t35_rotate_propeller",
+    "paper_trial": 0,
+    "exit_code": 0,
+    "success": true,
+    "steps": 360,
+    "error": null,
+    "complete_video_episode": true,
+    "videos": {
+      "main": {
+        "parse_ok": true,
+        "frames": 24,
+        "matches_expected": true
+      },
+      "wrist_left": {
+        "parse_ok": true,
+        "frames": 24,
+        "matches_expected": true
+      },
+      "wrist_right": {
+        "parse_ok": true,
+        "frames": 24,
+        "matches_expected": true
+      }
+    },
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/\u5f52\u6863\u5b9e\u9a8c/remaining54-paper-trial000-20261109_190242/fastwam-t35_rotate_propeller-trial000"
+  },
+  {
+    "task": "t36_scoop_marbles",
+    "paper_trial": 0,
+    "exit_code": 0,
+    "success": false,
+    "steps": 648,
+    "error": null,
+    "complete_video_episode": true,
+    "videos": {
+      "main": {
+        "parse_ok": true,
+        "frames": 42,
+        "matches_expected": true
+      },
+      "wrist_left": {
+        "parse_ok": true,
+        "frames": 42,
+        "matches_expected": true
+      },
+      "wrist_right": {
+        "parse_ok": true,
+        "frames": 42,
+        "matches_expected": true
+      }
+    },
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/\u5f52\u6863\u5b9e\u9a8c/remaining54-paper-trial000-20261109_190242/fastwam-t36_scoop_marbles-trial000"
+  },
+  {
+    "task": "t37_scrub_bottle",
+    "paper_trial": 0,
+    "exit_code": 0,
+    "success": false,
+    "steps": 777,
+    "error": null,
+    "complete_video_episode": true,
+    "videos": {
+      "main": {
+        "parse_ok": true,
+        "frames": 50,
+        "matches_expected": true
+      },
+      "wrist_left": {
+        "parse_ok": true,
+        "frames": 50,
+        "matches_expected": true
+      },
+      "wrist_right": {
+        "parse_ok": true,
+        "frames": 50,
+        "matches_expected": true
+      }
+    },
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/\u5f52\u6863\u5b9e\u9a8c/remaining54-paper-trial000-20261109_190242/fastwam-t37_scrub_bottle-trial000"
+  },
+  {
+    "task": "t38_set_dual_knobs",
+    "paper_trial": 0,
+    "exit_code": 0,
+    "success": false,
+    "steps": 1293,
+    "error": null,
+    "complete_video_episode": true,
+    "videos": {
+      "main": {
+        "parse_ok": true,
+        "frames": 82,
+        "matches_expected": true
+      },
+      "wrist_left": {
+        "parse_ok": true,
+        "frames": 82,
+        "matches_expected": true
+      },
+      "wrist_right": {
+        "parse_ok": true,
+        "frames": 82,
+        "matches_expected": true
+      }
+    },
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/\u5f52\u6863\u5b9e\u9a8c/remaining54-paper-trial000-20261109_190242/fastwam-t38_set_dual_knobs-trial000"
+  },
+  {
+    "task": "t39_set_timer",
+    "paper_trial": 0,
+    "exit_code": 0,
+    "success": false,
+    "steps": 902,
+    "error": null,
+    "complete_video_episode": true,
+    "videos": {
+      "main": {
+        "parse_ok": true,
+        "frames": 58,
+        "matches_expected": true
+      },
+      "wrist_left": {
+        "parse_ok": true,
+        "frames": 58,
+        "matches_expected": true
+      },
+      "wrist_right": {
+        "parse_ok": true,
+        "frames": 58,
+        "matches_expected": true
+      }
+    },
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/\u5f52\u6863\u5b9e\u9a8c/remaining54-paper-trial000-20261109_190242/fastwam-t39_set_timer-trial000"
+  },
+  {
+    "task": "t40_slide_knife_blade",
+    "paper_trial": 0,
+    "exit_code": 0,
+    "success": false,
+    "steps": 642,
+    "error": null,
+    "complete_video_episode": true,
+    "videos": {
+      "main": {
+        "parse_ok": true,
+        "frames": 42,
+        "matches_expected": true
+      },
+      "wrist_left": {
+        "parse_ok": true,
+        "frames": 42,
+        "matches_expected": true
+      },
+      "wrist_right": {
+        "parse_ok": true,
+        "frames": 42,
+        "matches_expected": true
+      }
+    },
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/\u5f52\u6863\u5b9e\u9a8c/remaining54-paper-trial000-20261109_190242/fastwam-t40_slide_knife_blade-trial000"
+  },
+  {
+    "task": "t41_sort_nested_cups",
+    "paper_trial": 0,
+    "exit_code": 0,
+    "success": false,
+    "steps": 2361,
+    "error": null,
+    "complete_video_episode": true,
+    "videos": {
+      "main": {
+        "parse_ok": true,
+        "frames": 149,
+        "matches_expected": true
+      },
+      "wrist_left": {
+        "parse_ok": true,
+        "frames": 149,
+        "matches_expected": true
+      },
+      "wrist_right": {
+        "parse_ok": true,
+        "frames": 149,
+        "matches_expected": true
+      }
+    },
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/\u5f52\u6863\u5b9e\u9a8c/remaining54-paper-trial000-20261109_190242/fastwam-t41_sort_nested_cups-trial000"
+  },
+  {
+    "task": "t43_squeeze_scissors",
+    "paper_trial": 0,
+    "exit_code": 0,
+    "success": true,
+    "steps": 214,
+    "error": null,
+    "complete_video_episode": true,
+    "videos": {
+      "main": {
+        "parse_ok": true,
+        "frames": 15,
+        "matches_expected": true
+      },
+      "wrist_left": {
+        "parse_ok": true,
+        "frames": 15,
+        "matches_expected": true
+      },
+      "wrist_right": {
+        "parse_ok": true,
+        "frames": 15,
+        "matches_expected": true
+      }
+    },
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/\u5f52\u6863\u5b9e\u9a8c/remaining54-paper-trial000-20261109_190242/fastwam-t43_squeeze_scissors-trial000"
+  },
+  {
+    "task": "t44_stack_blocks",
+    "paper_trial": 0,
+    "exit_code": 0,
+    "success": false,
+    "steps": 1161,
+    "error": null,
+    "complete_video_episode": true,
+    "videos": {
+      "main": {
+        "parse_ok": true,
+        "frames": 74,
+        "matches_expected": true
+      },
+      "wrist_left": {
+        "parse_ok": true,
+        "frames": 74,
+        "matches_expected": true
+      },
+      "wrist_right": {
+        "parse_ok": true,
+        "frames": 74,
+        "matches_expected": true
+      }
+    },
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/\u5f52\u6863\u5b9e\u9a8c/remaining54-paper-trial000-20261109_190242/fastwam-t44_stack_blocks-trial000"
+  },
+  {
+    "task": "t45_stir_pot",
+    "paper_trial": 0,
+    "exit_code": 0,
+    "success": true,
+    "steps": 658,
+    "error": null,
+    "complete_video_episode": true,
+    "videos": {
+      "main": {
+        "parse_ok": true,
+        "frames": 43,
+        "matches_expected": true
+      },
+      "wrist_left": {
+        "parse_ok": true,
+        "frames": 43,
+        "matches_expected": true
+      },
+      "wrist_right": {
+        "parse_ok": true,
+        "frames": 43,
+        "matches_expected": true
+      }
+    },
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/\u5f52\u6863\u5b9e\u9a8c/remaining54-paper-trial000-20261109_190242/fastwam-t45_stir_pot-trial000"
+  },
+  {
+    "task": "t47_trigger_drill_on_block",
+    "paper_trial": 0,
+    "exit_code": 0,
+    "success": false,
+    "steps": 1164,
+    "error": null,
+    "complete_video_episode": true,
+    "videos": {
+      "main": {
+        "parse_ok": true,
+        "frames": 74,
+        "matches_expected": true
+      },
+      "wrist_left": {
+        "parse_ok": true,
+        "frames": 74,
+        "matches_expected": true
+      },
+      "wrist_right": {
+        "parse_ok": true,
+        "frames": 74,
+        "matches_expected": true
+      }
+    },
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/\u5f52\u6863\u5b9e\u9a8c/remaining54-paper-trial000-20261109_190242/fastwam-t47_trigger_drill_on_block-trial000"
+  },
+  {
+    "task": "t48_unfold_fan",
+    "paper_trial": 0,
+    "exit_code": 0,
+    "success": false,
+    "steps": 972,
+    "error": null,
+    "complete_video_episode": true,
+    "videos": {
+      "main": {
+        "parse_ok": true,
+        "frames": 62,
+        "matches_expected": true
+      },
+      "wrist_left": {
+        "parse_ok": true,
+        "frames": 62,
+        "matches_expected": true
+      },
+      "wrist_right": {
+        "parse_ok": true,
+        "frames": 62,
+        "matches_expected": true
+      }
+    },
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/\u5f52\u6863\u5b9e\u9a8c/remaining54-paper-trial000-20261109_190242/fastwam-t48_unfold_fan-trial000"
+  },
+  {
+    "task": "t49_unfold_ruler",
+    "paper_trial": 0,
+    "exit_code": 0,
+    "success": false,
+    "steps": 792,
+    "error": null,
+    "complete_video_episode": true,
+    "videos": {
+      "main": {
+        "parse_ok": true,
+        "frames": 51,
+        "matches_expected": true
+      },
+      "wrist_left": {
+        "parse_ok": true,
+        "frames": 51,
+        "matches_expected": true
+      },
+      "wrist_right": {
+        "parse_ok": true,
+        "frames": 51,
+        "matches_expected": true
+      }
+    },
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/\u5f52\u6863\u5b9e\u9a8c/remaining54-paper-trial000-20261109_190242/fastwam-t49_unfold_ruler-trial000"
+  },
+  {
+    "task": "t50_water_plant",
+    "paper_trial": 0,
+    "exit_code": 0,
+    "success": false,
+    "steps": 129,
+    "error": null,
+    "complete_video_episode": true,
+    "videos": {
+      "main": {
+        "parse_ok": true,
+        "frames": 10,
+        "matches_expected": true
+      },
+      "wrist_left": {
+        "parse_ok": true,
+        "frames": 10,
+        "matches_expected": true
+      },
+      "wrist_right": {
+        "parse_ok": true,
+        "frames": 10,
+        "matches_expected": true
+      }
+    },
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/\u5f52\u6863\u5b9e\u9a8c/remaining54-paper-trial000-20261109_190242/fastwam-t50_water_plant-trial000"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "task": "t42_sort_objects",
+    "exit_code": 0,
+    "success": true,
+    "steps": 1288,
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/outputs/care-batch-20261106_152040_147176/fastwam-t42_sort_objects-seed0"
+  },
+  {
+    "task": "t46_store_charger",
+    "exit_code": 0,
+    "success": true,
+    "steps": 221,
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/outputs/care-batch-20261106_152040_147176/fastwam-t46_store_charger-seed0"
+  },
+  {
+    "task": "t25_place_cup_on_plate",
+    "exit_code": 0,
+    "success": true,
+    "steps": 161,
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/outputs/care-batch-20261106_152040_147176/fastwam-t25_place_cup_on_plate-seed0"
+  },
+  {
+    "task": "t28_place_tableware",
+    "exit_code": 0,
+    "success": false,
+    "steps": 652,
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/outputs/care-batch-20261106_152040_147176/fastwam-t28_place_tableware-seed0"
+  },
+  {
+    "task": "t05_fill_cup",
+    "exit_code": 0,
+    "success": false,
+    "steps": 1590,
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/outputs/care-batch-20261106_152040_147176/fastwam-t05_fill_cup-seed0"
+  },
+  {
+    "task": "t19_orient_cup_upright",
+    "exit_code": 0,
+    "success": true,
+    "steps": 70,
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/outputs/care-batch-20261106_152040_147176/fastwam-t19_orient_cup_upright-seed0"
+  },
+  {
+    "task": "t15_open_drawers",
+    "exit_code": 0,
+    "success": false,
+    "steps": 558,
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/outputs/care-batch-20261106_152040_147176/fastwam-t15_open_drawers-seed0"
+  },
+  {
+    "task": "t21_pass_block",
+    "exit_code": 0,
+    "success": true,
+    "steps": 309,
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/outputs/care-batch-20261106_152040_147176/fastwam-t21_pass_block-seed0"
+  },
+  {
+    "task": "t26_place_fruit_in_bucket",
+    "exit_code": 0,
+    "success": false,
+    "steps": 330,
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/outputs/care-batch-20261106_152040_147176/fastwam-t26_place_fruit_in_bucket-seed0"
+  },
+  {
+    "task": "t17_open_latched_door",
+    "exit_code": 0,
+    "success": true,
+    "steps": 280,
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/outputs/care-batch-20261106_152040_147176/fastwam-t17_open_latched_door-seed0"
+  },
+  {
+    "task": "t10_lift_carton",
+    "exit_code": 1,
+    "success": null,
+    "steps": null,
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/outputs/care-batch-20261106_152040_147176/fastwam-t10_lift_carton-seed0"
+  },
+  {
+    "task": "t03_cover_box",
+    "exit_code": 0,
+    "success": false,
+    "steps": 630,
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/outputs/care-batch-20261106_152040_147176/fastwam-t03_cover_box-seed0"
+  }
+]

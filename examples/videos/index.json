@@ -1,0 +1,106 @@
+[
+  {
+    "video": "03_给盒子盖上盖子.mp4",
+    "sha256": "38b920e44351ef4a0331e1d7d72180fc6e4942440154af99a212f60636951623",
+    "run": "fastwam-t03_cover_box-seed0",
+    "source": "outputs/care-batch-20261106_152040_147176/fastwam-t03_cover_box-seed0/policy_000/main.mp4",
+    "success": false,
+    "result_file": "RESULT.json"
+  },
+  {
+    "video": "05_接水.mp4",
+    "sha256": "8c07d6e71e993eb0040c68a00169c6febe95eeeb95bf9c61d1c2989fa44a9eb9",
+    "run": "fastwam-t05_fill_cup-seed0",
+    "source": "outputs/care-batch-20261106_152040_147176/fastwam-t05_fill_cup-seed0/policy_000/main.mp4",
+    "success": false,
+    "result_file": "RESULT.json"
+  },
+  {
+    "video": "10_双手抬起纸箱.mp4",
+    "sha256": "237dacb2e8316ae3978f4decb17f9ab412d8627a6cdbd175fdd09cb369036760",
+    "run": "fastwam-t10_lift_carton-seed0",
+    "source": "outputs/care-batch-20261106_152040_147176/fastwam-t10_lift_carton-seed0/policy_000/main.mp4",
+    "success": null,
+    "result_file": "ERROR.json"
+  },
+  {
+    "video": "15_拉开抽屉.mp4",
+    "sha256": "3132e226bd95f99f751b5d52c93d60f707e1af8cdf41d25b2c4ec0623f6f39de",
+    "run": "fastwam-t15_open_drawers-seed0",
+    "source": "outputs/care-batch-20261106_152040_147176/fastwam-t15_open_drawers-seed0/policy_000/main.mp4",
+    "success": false,
+    "result_file": "RESULT.json"
+  },
+  {
+    "video": "15_拉开抽屉_seed1_成功.mp4",
+    "sha256": "a0c473206064a78460e3e3b2e4ff709ac4cf8036575527589bfa57b124d27e4f",
+    "run": "fastwam-t15_open_drawers-seed1",
+    "source": "outputs/care-retry-20261108_235419_352486/fastwam-t15_open_drawers-seed1/policy_000/main.mp4",
+    "success": true,
+    "result_file": "RESULT.json"
+  },
+  {
+    "video": "17_操作门闩并开门.mp4",
+    "sha256": "7559bcd6d4fefa882806615daff28280ce8c3a2bef6b574712929ec9229382fa",
+    "run": "fastwam-t17_open_latched_door-seed0",
+    "source": "outputs/care-batch-20261106_152040_147176/fastwam-t17_open_latched_door-seed0/policy_000/main.mp4",
+    "success": true,
+    "result_file": "RESULT.json"
+  },
+  {
+    "video": "19_扶正杯子.mp4",
+    "sha256": "802828510c4d7f548425203de34471905396c4d20981a161712c9d57affd9e05",
+    "run": "fastwam-t19_orient_cup_upright-seed0",
+    "source": "outputs/care-batch-20261106_152040_147176/fastwam-t19_orient_cup_upright-seed0/policy_000/main.mp4",
+    "success": true,
+    "result_file": "RESULT.json"
+  },
+  {
+    "video": "21_双手传递积木.mp4",
+    "sha256": "ebc12889c5f6be56c358009848a54000fca4a9a0b62296af7907714c4087eae2",
+    "run": "fastwam-t21_pass_block-seed0",
+    "source": "outputs/care-batch-20261106_152040_147176/fastwam-t21_pass_block-seed0/policy_000/main.mp4",
+    "success": true,
+    "result_file": "RESULT.json"
+  },
+  {
+    "video": "25_杯子放到盘子上.mp4",
+    "sha256": "587c13e320a7a5c25ccf14be025b0efd4b50c6d182dfc9e70d531574f6181629",
+    "run": "fastwam-t25_place_cup_on_plate-seed0",
+    "source": "outputs/care-batch-20261106_152040_147176/fastwam-t25_place_cup_on_plate-seed0/policy_000/main.mp4",
+    "success": true,
+    "result_file": "RESULT.json"
+  },
+  {
+    "video": "26_水果放入桶中.mp4",
+    "sha256": "e0895ee5c3f75825527dd524d48b251111d5ca4c8c11f7965b402991879d128c",
+    "run": "fastwam-t26_place_fruit_in_bucket-seed0",
+    "source": "outputs/care-batch-20261106_152040_147176/fastwam-t26_place_fruit_in_bucket-seed0/policy_000/main.mp4",
+    "success": false,
+    "result_file": "RESULT.json"
+  },
+  {
+    "video": "28_摆放餐具.mp4",
+    "sha256": "4d8619545d975f6c4098934eb12ce942147e9a5bc2eec6a18fade81f04206d4f",
+    "run": "fastwam-t28_place_tableware-seed0",
+    "source": "outputs/care-batch-20261106_152040_147176/fastwam-t28_place_tableware-seed0/policy_000/main.mp4",
+    "success": false,
+    "result_file": "RESULT.json"
+  },
+  {
+    "video": "42_杂物分类收纳.mp4",
+    "sha256": "a28f66ae528ddfe5e6cc7be9ffebe50dd3de46ddd659b2757787f6564844f0ad",
+    "run": "fastwam-t42_sort_objects-seed0",
+    "source": "outputs/care-batch-20261106_152040_147176/fastwam-t42_sort_objects-seed0/policy_000/main.mp4",
+    "success": true,
+    "result_file": "RESULT.json"
+  },
+  {
+    "video": "46_充电器收纳.mp4",
+    "sha256": "aac7096bf233ccfd5566edbd3e76406aaf68b12c10183e17e76eba1d06a2a82a",
+    "run": "fastwam-t46_store_charger-seed0",
+    "source": "outputs/care-batch-20261106_152040_147176/fastwam-t46_store_charger-seed0/policy_000/main.mp4",
+    "success": true,
+    "result_file": "RESULT.json"
+  }
+]

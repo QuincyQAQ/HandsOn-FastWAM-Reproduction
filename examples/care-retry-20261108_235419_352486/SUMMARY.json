@@ -1,0 +1,56 @@
+[
+  {
+    "task": "t28_place_tableware",
+    "seed": 1,
+    "exit_code": 0,
+    "success": false,
+    "steps": 11,
+    "error": null,
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/outputs/care-retry-20261108_235419_352486/fastwam-t28_place_tableware-seed1"
+  },
+  {
+    "task": "t05_fill_cup",
+    "seed": 1,
+    "exit_code": 0,
+    "success": false,
+    "steps": 1590,
+    "error": null,
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/outputs/care-retry-20261108_235419_352486/fastwam-t05_fill_cup-seed1"
+  },
+  {
+    "task": "t15_open_drawers",
+    "seed": 1,
+    "exit_code": 0,
+    "success": true,
+    "steps": 133,
+    "error": null,
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/outputs/care-retry-20261108_235419_352486/fastwam-t15_open_drawers-seed1"
+  },
+  {
+    "task": "t26_place_fruit_in_bucket",
+    "seed": 1,
+    "exit_code": 0,
+    "success": false,
+    "steps": 330,
+    "error": null,
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/outputs/care-retry-20261108_235419_352486/fastwam-t26_place_fruit_in_bucket-seed1"
+  },
+  {
+    "task": "t10_lift_carton",
+    "seed": 1,
+    "exit_code": 1,
+    "success": null,
+    "steps": null,
+    "error": "ValueError('Native high-level command readback changed')",
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/outputs/care-retry-20261108_235419_352486/fastwam-t10_lift_carton-seed1"
+  },
+  {
+    "task": "t03_cover_box",
+    "seed": 1,
+    "exit_code": 0,
+    "success": false,
+    "steps": 630,
+    "error": null,
+    "output": "/home/quincylee/code/Robotics/HandsOn-main/outputs/care-retry-20261108_235419_352486/fastwam-t03_cover_box-seed1"
+  }
+]
