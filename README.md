@@ -2,6 +2,10 @@
 
 在 HKUST 昇腾服务器上运行 FastWAM，在本机 Isaac Sim 中执行动作、采集主相机和双腕相机，再用 FFmpeg 写出视频。本仓库保存实验用的本地改动、调度脚本、配置，以及可与原始回合核对的 13 条主视角录像。
 
+## HPC NVIDIA CUDA 版本
+
+在 Slurm 上运行 FastWAM 推理，可选择笔记本或同节点 Isaac Sim 渲染。部署步骤、12 项批量录像和成片核验见 [HPC2 使用说明](overlay/hpc/README.md)。
+
 ## 查看结果
 
 [主视角视频](examples/videos)包括 12 个任务的首轮录像，以及一次成功的拉抽屉复测。[视频索引](examples/videos/index.json)给出每条录像的 SHA-256、原始目录和环境报告的成功状态。[逐回合记录](examples/results)保留 RESULT.json 或 ERROR.json。10 号抬纸箱在首轮执行异常，目录里保留了当时的短片。
